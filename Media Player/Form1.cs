@@ -15,6 +15,7 @@ namespace Media_Player
         public MediaPlayer()
         {
             InitializeComponent();
+            
         }
 
         private void groupBox1_Enter(object sender, EventArgs e)

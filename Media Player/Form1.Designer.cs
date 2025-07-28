@@ -271,6 +271,10 @@ namespace Media_Player
             this.Controls.Add(this.lbl_msg);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.Player);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.MaximizeBox = false;
+            this.MaximumSize = new System.Drawing.Size(639, 527);
+            this.MinimumSize = new System.Drawing.Size(639, 527);
             this.Name = "MediaPlayer";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "XRay-Player";
